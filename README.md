@@ -9,9 +9,13 @@ You will first need to execute the Restructuring the data notebook to get your f
 After you finish with the preprocessing pipeline you can start building your models. We used two U-net models but the only difference is in the encoder of each model since we used the basic CNN encoder for the first model and a pretrained VGG16 model for the second model.
 
 The U-net architecture
+
+
 ![image](https://github.com/mohamed-ben-ticha/Working-on-the-CBIS-DDSM-data-set/assets/130346080/fc41e3eb-d9eb-4449-8176-5377594df43f)
 
 The VGG16 architecture
+
+
 ![image](https://github.com/mohamed-ben-ticha/Working-on-the-CBIS-DDSM-data-set/assets/130346080/990efea7-ddd2-4c21-8ebf-1bffe004f5e4)
 
 
