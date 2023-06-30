@@ -17,6 +17,7 @@ And this how it looks like after we restructure it:
 ![image](https://github.com/mohamed-ben-ticha/Working-on-the-CBIS-DDSM-data-set/assets/130346080/eeac7570-ee32-423a-b0ed-e48013eb857a)
 
 Then you will need to update the dcm paths in the csv data. And finally you can start exploring your data and preprocessing it. 
+
 After you finish preprocessing the images and their corresponding masks you will need to merge the masks of the patients that possess more than one tumour by executing the merge multi tumour notebook.
 
 
