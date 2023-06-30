@@ -2,4 +2,16 @@
 This project tackles one of the major problems in computer vision which is semantic segmentation, we will be perofrming 2D segmentation to detect breast abnormalities 
 We will be working on the CBIS-DDSM data set that you can fin via this link : https://wiki.cancerimagingarchive.net/pages/viewpage.action?pageId=22516629
 
-You will find two folders in this repo : The data preprocessing contains all the necessary code to get your data ready to go, and the models folder contains the models that have been trained on the data as well as the ensemble learning notebook in which we apllied the voting ensemble learning technique to enhance our segmentation task
+You will find two folders in this repo : The data preprocessing contains all the necessary code to get your data ready to go, and the models folder contains the models that have been trained on the data as well as the ensemble learning notebook in which we apllied the voting ensemble learning technique to enhance our segmentation task.
+
+You will first need to execute the Restructuring the data notebook to get your folder well organised abd easier to wrok with. Then you will need to update the dcm paths in the csv data. And finally you can start exploring your data and preprocessing it. After you finish preprocessing the iamges you will need to merge the masks of the patients that possess more than one tumour by executing the merge multi tumour notebook.
+
+After you finish with the preprocessing pipeline you can start building your models. We used two U-net models but the only difference is in the encoder of each model since we used the basic CNN encoder for the first model and a pretrained VGG16 model for the second model.
+
+The U-net architecture
+![image](https://github.com/mohamed-ben-ticha/Working-on-the-CBIS-DDSM-data-set/assets/130346080/fc41e3eb-d9eb-4449-8176-5377594df43f)
+
+The VGG16 architecture
+![image](https://github.com/mohamed-ben-ticha/Working-on-the-CBIS-DDSM-data-set/assets/130346080/990efea7-ddd2-4c21-8ebf-1bffe004f5e4)
+
+
