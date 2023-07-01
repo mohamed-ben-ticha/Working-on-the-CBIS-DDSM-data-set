@@ -27,7 +27,7 @@ After you finish preprocessing the images and their corresponding masks you will
 
 
 
-After you finish with the preprocessing pipeline you can start building your models. We used two U-net models but the only difference is in the encoder of each model since we used the basic CNN encoder for the first model and a pretrained VGG16 model for the second model.
+After you finish with the preprocessing pipeline you can start building your models. We used two U-net models but the only difference is in the encoder of each one since we used the basic CNN encoder for the first model and a pretrained VGG16 architecture for the second one.
 
 The U-net architecture:
 
